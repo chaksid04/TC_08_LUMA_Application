@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MagentoTestSuite">
+	<test name="CreateAccountTest">
+		<classes>
+			<class name="com.magento.testcases.CreateAccountTest"></class>
+		</classes>
+	</test>
+	<test name="LoginTest">
+		<classes>
+			<class name="com.magento.testcases.LoginTest"></class>
+		</classes>
+	</test>
+	<test name="ValidateAddressTest">
+		<classes>
+			<class name="com.magento.testcases.ValidateAddressTest"></class>
+		</classes>
+	</test>
+	<test name="CreateOrderTest">
+		<classes>
+			<class name="com.magento.testcases.CreateOrderTest"></class>
+		</classes>
+	</test>
+
+</suite>
